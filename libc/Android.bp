@@ -1621,6 +1621,10 @@ cc_library {
     },
 
     symbol_ordering_file: "symbol_ordering",
+
+    lto: {
+        never: true,
+    },
 }
 
 genrule {

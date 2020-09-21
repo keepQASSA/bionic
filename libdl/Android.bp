@@ -109,6 +109,10 @@ cc_library {
         symbol_file: "libdl.map.txt",
         versions: ["10000"],
     },
+
+    lto: {
+        never: true,
+    },
 }
 
 cc_library {
@@ -176,6 +180,10 @@ cc_library {
     stubs: {
         symbol_file: "libdl_android.map.txt",
         versions: ["10000"],
+    },
+
+    lto: {
+        never: true,
     },
 }
 

@@ -380,6 +380,10 @@ cc_library {
     sanitize: {
         never: true,
     },
+
+    lto: {
+        never: true,
+    },
 }
 
 cc_test {

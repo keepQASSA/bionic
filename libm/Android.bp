@@ -513,6 +513,10 @@ cc_library {
         symbol_file: "libm.map.txt",
         versions: ["10000"],
     },
+
+    lto: {
+        never: true,
+    },
 }
 
 ndk_library {
