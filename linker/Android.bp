@@ -313,6 +313,10 @@ cc_binary {
     },
     compile_multilib: "both",
     xom: false,
+
+    lto: {
+        never: true,
+    },
 }
 
 cc_library {
