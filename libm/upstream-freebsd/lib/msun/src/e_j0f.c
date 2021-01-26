@@ -14,7 +14,7 @@
  */
 
 #include <sys/cdefs.h>
-__FBSDID("$FreeBSD: head/lib/msun/src/e_j0f.c 343023 2019-01-14 15:48:35Z pfg $");
+__FBSDID("$FreeBSD$");
 
 /*
  * See e_j0.c for complete comments.
